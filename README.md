@@ -1,3 +1,3 @@
 # webstorm-settings-colors
 
-README+
+Contains colors used by my webstorm
