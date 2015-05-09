@@ -2,7 +2,7 @@
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
-  <option name="EDITOR_FONT_NAME" value="Office Code Pro Medium" />
+  <option name="EDITOR_FONT_NAME" value="Monospaced" />
   <colors>
     <option name="CARET_COLOR" value="716fa8" />
     <option name="CARET_ROW_COLOR" value="2b2c2d" />

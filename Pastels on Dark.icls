@@ -108,9 +108,6 @@
         <option name="FOREGROUND" value="cccccc" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.FUNCTION_NAME">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.HEREDOC_CONTENT">
       <value>
         <option name="FOREGROUND" value="ad9361" />

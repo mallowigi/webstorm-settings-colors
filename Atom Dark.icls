@@ -44,6 +44,13 @@
         <option name="BACKGROUND" value="743d3d" />
       </value>
     </option>
+    <option name="BROWSEWORDATCARET">
+      <value>
+        <option name="BACKGROUND" value="183690" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="ERROR_STRIPE_COLOR" value="526da5" />
+      </value>
+    </option>
     <option name="BUILDOUT.KEY">
       <value>
         <option name="FOREGROUND" value="cc7833" />

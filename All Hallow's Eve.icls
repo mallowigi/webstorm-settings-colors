@@ -1,7 +1,8 @@
 <scheme name="All hallow's eve" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Monospaced" />
+  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
+  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <colors>
     <option name="ANNOTATIONS_COLOR" value="" />
     <option name="CARET_COLOR" value="ffffff" />
@@ -43,6 +44,12 @@
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="743d3d" />
+      </value>
+    </option>
+    <option name="BROWSEWORDATCARET">
+      <value>
+        <option name="BACKGROUND" value="9833cb" />
+        <option name="ERROR_STRIPE_COLOR" value="526da5" />
       </value>
     </option>
     <option name="BUILDOUT.KEY">
