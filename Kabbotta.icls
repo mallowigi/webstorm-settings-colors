@@ -176,9 +176,6 @@
         <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -708,9 +705,6 @@
       <value>
         <option name="FOREGROUND" value="9effff" />
       </value>
-    </option>
-    <option name="HAML_TEXT">
-      <value />
     </option>
     <option name="HAML_WS_REMOVAL">
       <value>

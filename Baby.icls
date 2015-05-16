@@ -164,13 +164,6 @@
         <option name="FOREGROUND" value="754200" />
       </value>
     </option>
-    <option name="CTRL_CLICKABLE">
-      <value>
-        <option name="FOREGROUND" value="589df6" />
-        <option name="EFFECT_COLOR" value="589df6" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="68e868" />
@@ -1709,9 +1702,6 @@
       <value>
         <option name="FOREGROUND" value="bff294" />
       </value>
-    </option>
-    <option name="XML_TAG">
-      <value />
     </option>
     <option name="XML_TAG_DATA">
       <value>

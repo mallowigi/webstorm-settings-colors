@@ -166,9 +166,6 @@
         <option name="FOREGROUND" value="ffb454" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="c4e2f2" />
@@ -183,9 +180,6 @@
       <value>
         <option name="FOREGROUND" value="798188" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.LOCAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.NUMBER">
       <value>
@@ -682,9 +676,6 @@
         <option name="FOREGROUND" value="b7d877" />
       </value>
     </option>
-    <option name="HAML_TEXT">
-      <value />
-    </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="edf080" />
@@ -764,9 +755,6 @@
         <option name="FOREGROUND" value="798188" />
       </value>
     </option>
-    <option name="JAVA_COMMA">
-      <value />
-    </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="798188" />
@@ -810,9 +798,6 @@
         <option name="FOREGROUND" value="fa9a4b" />
       </value>
     </option>
-    <option name="JAVA_SEMICOLON">
-      <value />
-    </option>
     <option name="JAVA_STRING">
       <value>
         <option name="FOREGROUND" value="c4e2f2" />
@@ -838,9 +823,6 @@
       <value>
         <option name="FOREGROUND" value="798188" />
       </value>
-    </option>
-    <option name="JS.COMMA">
-      <value />
     </option>
     <option name="JS.DOC_COMMENT">
       <value>
@@ -914,9 +896,6 @@
       <value>
         <option name="FOREGROUND" value="ffb454" />
       </value>
-    </option>
-    <option name="JS.SEMICOLON">
-      <value />
     </option>
     <option name="JS.STATIC_MEMBER_VARIABLE">
       <value>
@@ -1314,12 +1293,6 @@
         <option name="BACKGROUND" value="aa2914" />
       </value>
     </option>
-    <option name="REGEXP.BRACES">
-      <value />
-    </option>
-    <option name="REGEXP.BRACKETS">
-      <value />
-    </option>
     <option name="REGEXP.CHAR_CLASS">
       <value>
         <option name="FOREGROUND" value="b8d977" />
@@ -1345,9 +1318,6 @@
       <value>
         <option name="FOREGROUND" value="fa9a4b" />
       </value>
-    </option>
-    <option name="REGEXP.PARENTHS">
-      <value />
     </option>
     <option name="REGEXP.QUOTE_CHARACTER">
       <value>

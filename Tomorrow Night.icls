@@ -194,9 +194,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -473,9 +470,6 @@
         <option name="FOREGROUND" value="b294bb" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="CSS.PROPERTY_VALUE">
-      <value />
     </option>
     <option name="CSS.STRING">
       <value>

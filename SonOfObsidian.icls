@@ -106,9 +106,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.KEYWORD">
       <value>
         <option name="FOREGROUND" value="93c763" />
@@ -177,9 +174,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.FUNCTION">
-      <value />
-    </option>
     <option name="CSS.IDENT">
       <value>
         <option name="FOREGROUND" value="678cb1" />
@@ -222,13 +216,6 @@
       <value>
         <option name="FOREGROUND" value="8ccfd3" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="CTRL_CLICKABLE">
-      <value>
-        <option name="FOREGROUND" value="589df6" />
-        <option name="EFFECT_COLOR" value="589df6" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -695,9 +682,6 @@
         <option name="FOREGROUND" value="a0828c" />
       </value>
     </option>
-    <option name="HTML_TAG">
-      <value />
-    </option>
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="93c763" />
@@ -1051,9 +1035,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="REGEXP.REDUNDANT_ESCAPE">
-      <value />
-    </option>
     <option name="SASS_VARIABLE">
       <value>
         <option name="FOREGROUND" value="800080" />
@@ -1247,12 +1228,6 @@
         <option name="FOREGROUND" value="66747b" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="XML_ENTITY_REFERENCE">
-      <value />
-    </option>
-    <option name="XML_TAG">
-      <value />
     </option>
     <option name="XML_TAG_DATA">
       <value>

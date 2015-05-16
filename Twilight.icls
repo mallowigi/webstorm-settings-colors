@@ -154,9 +154,6 @@
         <option name="FOREGROUND" value="e9c062" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="8f9d6a" />
@@ -172,9 +169,6 @@
         <option name="FOREGROUND" value="5f5a60" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.LOCAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.NUMBER">
       <value>
@@ -1106,9 +1100,6 @@
         <option name="FOREGROUND" value="cf6a4c" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="HTML_TAG">
-      <value />
     </option>
     <option name="HTML_TAG_NAME">
       <value>
@@ -2060,9 +2051,6 @@
       <value>
         <option name="FOREGROUND" value="cf6a4c" />
       </value>
-    </option>
-    <option name="XML_TAG">
-      <value />
     </option>
     <option name="XML_TAG_DATA">
       <value>

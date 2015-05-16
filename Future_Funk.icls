@@ -171,9 +171,6 @@
         <option name="FOREGROUND" value="f0f07a" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="b7ff" />
@@ -189,9 +186,6 @@
       <value>
         <option name="FOREGROUND" value="b6c6d4" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.LOCAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.NUMBER">
       <value>
@@ -677,9 +671,6 @@
         <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE">
-      <value />
-    </option>
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="f0f07a" />
@@ -699,9 +690,6 @@
       <value>
         <option name="FOREGROUND" value="7bd827" />
       </value>
-    </option>
-    <option name="HAML_TEXT">
-      <value />
     </option>
     <option name="HAML_WS_REMOVAL">
       <value>
@@ -1823,9 +1811,6 @@
       <value>
         <option name="FOREGROUND" value="9cffcd" />
       </value>
-    </option>
-    <option name="SASS_VARIABLE">
-      <value />
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>

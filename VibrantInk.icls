@@ -150,9 +150,6 @@
         <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="66ff00" />
@@ -326,19 +323,9 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CSS.TAG_NAME">
-      <value />
-    </option>
     <option name="CSS.URL">
       <value>
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="CTRL_CLICKABLE">
-      <value>
-        <option name="FOREGROUND" value="589df6" />
-        <option name="EFFECT_COLOR" value="589df6" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -900,9 +887,6 @@
         <option name="FOREGROUND" value="339999" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="HTML_TAG">
-      <value />
     </option>
     <option name="HTML_TAG_NAME">
       <value>
@@ -2017,9 +2001,6 @@
         <option name="FOREGROUND" value="339999" />
       </value>
     </option>
-    <option name="XML_TAG">
-      <value />
-    </option>
     <option name="XML_TAG_DATA">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -2040,9 +2021,6 @@
       <value>
         <option name="FOREGROUND" value="66ff00" />
       </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value />
     </option>
     <option name="YAML_SCALAR_LIST">
       <value>

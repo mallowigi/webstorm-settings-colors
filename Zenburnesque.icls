@@ -97,9 +97,6 @@
         <option name="FOREGROUND" value="ffffa0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.FUNCTION">
       <value>
         <option name="FOREGROUND" value="6080ff" />
@@ -115,9 +112,6 @@
         <option name="FOREGROUND" value="ffcc66" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.GLOBAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.HEREDOC_CONTENT">
       <value>
@@ -139,9 +133,6 @@
         <option name="FOREGROUND" value="ff2020" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="ff2020" />
@@ -157,9 +148,6 @@
         <option name="FOREGROUND" value="709070" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.LOCAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.NUMBER">
       <value>
@@ -275,12 +263,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.FUNCTION">
-      <value />
-    </option>
-    <option name="CSS.IDENT">
-      <value />
-    </option>
     <option name="CSS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="ffffa0" />
@@ -294,9 +276,6 @@
         <option name="FOREGROUND" value="22c0ff" />
       </value>
     </option>
-    <option name="CSS.PROPERTY_NAME">
-      <value />
-    </option>
     <option name="CSS.PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="68e868" />
@@ -308,12 +287,6 @@
         <option name="FOREGROUND" value="ff2020" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="CSS.TAG_NAME">
-      <value />
-    </option>
-    <option name="CSS.URL">
-      <value />
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value />
@@ -559,20 +532,11 @@
         <option name="FOREGROUND" value="ff2020" />
       </value>
     </option>
-    <option name="HAML_CLASS">
-      <value />
-    </option>
     <option name="HAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="709070" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="HAML_ID">
-      <value />
-    </option>
-    <option name="HAML_RUBY_CODE">
-      <value />
     </option>
     <option name="HAML_STRING">
       <value>
@@ -583,15 +547,6 @@
       <value>
         <option name="FOREGROUND" value="ff2020" />
       </value>
-    </option>
-    <option name="HAML_TAG">
-      <value />
-    </option>
-    <option name="HAML_TEXT">
-      <value />
-    </option>
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value />
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
@@ -610,9 +565,6 @@
         <option name="FOREGROUND" value="ff8080" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="HTML_TAG">
-      <value />
     </option>
     <option name="HTML_TAG_NAME">
       <value>
@@ -663,9 +615,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_COMMA">
-      <value />
-    </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="709070" />
@@ -683,9 +632,6 @@
         <option name="EFFECT_COLOR" value="80807f" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value />
     </option>
     <option name="JAVA_KEYWORD">
       <value>
@@ -707,9 +653,6 @@
       <value>
         <option name="FOREGROUND" value="ffffa0" />
       </value>
-    </option>
-    <option name="JAVA_SEMICOLON">
-      <value />
     </option>
     <option name="JAVA_STRING">
       <value>
@@ -819,9 +762,6 @@
       <value>
         <option name="FOREGROUND" value="ffffa0" />
       </value>
-    </option>
-    <option name="LESS_VARIABLE">
-      <value />
     </option>
     <option name="LOCALE.LINE_COMMENT">
       <value>
@@ -939,9 +879,6 @@
         <option name="FOREGROUND" value="709070" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="PHP_CONSTANT">
-      <value />
     </option>
     <option name="PHP_DOC_COMMENT_ID">
       <value>
@@ -1070,9 +1007,6 @@
         <option name="FOREGROUND" value="ff2020" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
-      <value />
-    </option>
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="ffcc66" />
@@ -1122,12 +1056,6 @@
         <option name="FOREGROUND" value="ff8080" />
       </value>
     </option>
-    <option name="REGEXP.BRACES">
-      <value />
-    </option>
-    <option name="REGEXP.BRACKETS">
-      <value />
-    </option>
     <option name="REGEXP.CHAR_CLASS">
       <value>
         <option name="FOREGROUND" value="ff8080" />
@@ -1144,16 +1072,10 @@
         <option name="FOREGROUND" value="ff8080" />
       </value>
     </option>
-    <option name="REGEXP.INVALID_STRING_ESCAPE">
-      <value />
-    </option>
     <option name="REGEXP.META">
       <value>
         <option name="FOREGROUND" value="ffffa0" />
       </value>
-    </option>
-    <option name="REGEXP.PARENTHS">
-      <value />
     </option>
     <option name="REGEXP.QUOTE_CHARACTER">
       <value>
@@ -1343,9 +1265,6 @@
         <option name="FOREGROUND" value="ff2020" />
       </value>
     </option>
-    <option name="SASS_VARIABLE">
-      <value />
-    </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="4f4f82" />
@@ -1520,9 +1439,6 @@
         <option name="BACKGROUND" value="623062" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME">
-      <value />
-    </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="ff2020" />
@@ -1538,9 +1454,6 @@
       <value>
         <option name="FOREGROUND" value="ff8080" />
       </value>
-    </option>
-    <option name="XML_TAG">
-      <value />
     </option>
     <option name="XML_TAG_DATA">
       <value>
@@ -1563,9 +1476,6 @@
       <value>
         <option name="FOREGROUND" value="ff2020" />
       </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value />
     </option>
     <option name="YAML_SCALAR_LIST">
       <value>

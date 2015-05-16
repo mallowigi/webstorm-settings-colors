@@ -176,9 +176,6 @@
         <option name="FOREGROUND" value="ccf493" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="f9885b" />
@@ -684,9 +681,6 @@
         <option name="FOREGROUND" value="f9885b" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE">
-      <value />
-    </option>
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="daffff" />
@@ -706,9 +700,6 @@
       <value>
         <option name="FOREGROUND" value="ccf493" />
       </value>
-    </option>
-    <option name="HAML_TEXT">
-      <value />
     </option>
     <option name="HAML_WS_REMOVAL">
       <value>

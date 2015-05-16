@@ -112,9 +112,6 @@
         <option name="FOREGROUND" value="ff005e" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.FUNCTION">
       <value>
         <option name="FOREGROUND" value="41ffff" />
@@ -158,9 +155,6 @@
         <option name="FOREGROUND" value="ffff63" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="ffff63" />
@@ -176,9 +170,6 @@
         <option name="FOREGROUND" value="627a79" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.LOCAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.NUMBER">
       <value>
@@ -646,9 +637,6 @@
         <option name="FOREGROUND" value="ff005e" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE">
-      <value />
-    </option>
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="ffff63" />
@@ -659,16 +647,10 @@
         <option name="FOREGROUND" value="ffff63" />
       </value>
     </option>
-    <option name="HAML_TAG">
-      <value />
-    </option>
     <option name="HAML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="ff005e" />
       </value>
-    </option>
-    <option name="HAML_TEXT">
-      <value />
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
@@ -692,9 +674,6 @@
         <option name="FOREGROUND" value="f082ff" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="HTML_TAG">
-      <value />
     </option>
     <option name="HTML_TAG_NAME">
       <value>
@@ -750,9 +729,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_COMMA">
-      <value />
-    </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="627a79" />
@@ -798,9 +774,6 @@
         <option name="FOREGROUND" value="ff005e" />
       </value>
     </option>
-    <option name="JAVA_SEMICOLON">
-      <value />
-    </option>
     <option name="JAVA_STRING">
       <value>
         <option name="FOREGROUND" value="ffff63" />
@@ -827,9 +800,6 @@
         <option name="FOREGROUND" value="627a79" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="JS.COMMA">
-      <value />
     </option>
     <option name="JS.DOC_COMMENT">
       <value>
@@ -906,9 +876,6 @@
       <value>
         <option name="FOREGROUND" value="ffff63" />
       </value>
-    </option>
-    <option name="JS.SEMICOLON">
-      <value />
     </option>
     <option name="JS.STATIC_MEMBER_VARIABLE">
       <value>
@@ -1095,9 +1062,6 @@
         <option name="FOREGROUND" value="627a79" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="PHP_CONSTANT">
-      <value />
     </option>
     <option name="PHP_DOC_COMMENT_ID">
       <value>
@@ -1306,12 +1270,6 @@
         <option name="BACKGROUND" value="ff005e" />
       </value>
     </option>
-    <option name="REGEXP.BRACES">
-      <value />
-    </option>
-    <option name="REGEXP.BRACKETS">
-      <value />
-    </option>
     <option name="REGEXP.CHAR_CLASS">
       <value>
         <option name="FOREGROUND" value="f082ff" />
@@ -1338,9 +1296,6 @@
       <value>
         <option name="FOREGROUND" value="ff005e" />
       </value>
-    </option>
-    <option name="REGEXP.PARENTHS">
-      <value />
     </option>
     <option name="REGEXP.QUOTE_CHARACTER">
       <value>
@@ -1886,9 +1841,6 @@
       <value>
         <option name="FOREGROUND" value="f082ff" />
       </value>
-    </option>
-    <option name="XML_TAG">
-      <value />
     </option>
     <option name="XML_TAG_DATA">
       <value>

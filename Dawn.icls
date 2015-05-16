@@ -335,13 +335,6 @@
         <option name="FOREGROUND" value="234a97" />
       </value>
     </option>
-    <option name="CTRL_CLICKABLE">
-      <value>
-        <option name="FOREGROUND" value="589df6" />
-        <option name="EFFECT_COLOR" value="589df6" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b52a1d" />
@@ -1947,16 +1940,10 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="YAML_SCALAR_DSTRING">
-      <value />
-    </option>
     <option name="YAML_SCALAR_KEY">
       <value>
         <option name="FOREGROUND" value="19356d" />
       </value>
-    </option>
-    <option name="YAML_SCALAR_STRING">
-      <value />
     </option>
     <option name="YAML_SIGN">
       <value>

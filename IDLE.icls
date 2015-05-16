@@ -95,9 +95,6 @@
         <option name="FOREGROUND" value="ff5600" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.FUNCTION">
       <value>
         <option name="FOREGROUND" value="ff5600" />
@@ -112,9 +109,6 @@
       <value>
         <option name="FOREGROUND" value="21439c" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.GLOBAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.HEREDOC_CONTENT">
       <value>
@@ -136,9 +130,6 @@
         <option name="FOREGROUND" value="a33f" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="a33f" />
@@ -153,9 +144,6 @@
       <value>
         <option name="FOREGROUND" value="919191" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.LOCAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.OPERATIONS">
       <value>
@@ -242,9 +230,6 @@
         <option name="FOREGROUND" value="a535ae" />
       </value>
     </option>
-    <option name="CSS.IDENT">
-      <value />
-    </option>
     <option name="CSS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="ff5600" />
@@ -252,9 +237,6 @@
         <option name="EFFECT_COLOR" value="ff5600" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="CSS.NUMBER">
-      <value />
     </option>
     <option name="CSS.PROPERTY_NAME">
       <value>
@@ -266,12 +248,6 @@
         <option name="FOREGROUND" value="a33f" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="CSS.TAG_NAME">
-      <value />
-    </option>
-    <option name="CSS.URL">
-      <value />
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
@@ -448,19 +424,10 @@
         <option name="FOREGROUND" value="a33f" />
       </value>
     </option>
-    <option name="HAML_CLASS">
-      <value />
-    </option>
     <option name="HAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="919191" />
       </value>
-    </option>
-    <option name="HAML_ID">
-      <value />
-    </option>
-    <option name="HAML_RUBY_CODE">
-      <value />
     </option>
     <option name="HAML_STRING">
       <value>
@@ -471,15 +438,6 @@
       <value>
         <option name="FOREGROUND" value="a33f" />
       </value>
-    </option>
-    <option name="HAML_TAG">
-      <value />
-    </option>
-    <option name="HAML_TEXT">
-      <value />
-    </option>
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value />
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
@@ -496,9 +454,6 @@
       <value>
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="HTML_TAG">
-      <value />
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
@@ -517,9 +472,6 @@
       <value>
         <option name="FOREGROUND" value="919191" />
       </value>
-    </option>
-    <option name="JAVA_COMMA">
-      <value />
     </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
@@ -554,24 +506,15 @@
         <option name="FOREGROUND" value="919191" />
       </value>
     </option>
-    <option name="JAVA_NUMBER">
-      <value />
-    </option>
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="ff5600" />
       </value>
     </option>
-    <option name="JAVA_SEMICOLON">
-      <value />
-    </option>
     <option name="JAVA_STRING">
       <value>
         <option name="FOREGROUND" value="a33f" />
       </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value />
     </option>
     <option name="JS.ATTRIBUTE">
       <value>
@@ -648,9 +591,6 @@
       <value>
         <option name="FOREGROUND" value="ff5600" />
       </value>
-    </option>
-    <option name="LESS_VARIABLE">
-      <value />
     </option>
     <option name="LOCALE.LINE_COMMENT">
       <value>
@@ -753,9 +693,6 @@
       <value>
         <option name="FOREGROUND" value="919191" />
       </value>
-    </option>
-    <option name="PHP_CONSTANT">
-      <value />
     </option>
     <option name="PHP_DOC_COMMENT_ID">
       <value>
@@ -925,22 +862,10 @@
         <option name="BACKGROUND" value="990000" />
       </value>
     </option>
-    <option name="REGEXP.BRACES">
-      <value />
-    </option>
-    <option name="REGEXP.BRACKETS">
-      <value />
-    </option>
-    <option name="REGEXP.CHAR_CLASS">
-      <value />
-    </option>
     <option name="REGEXP.COMMENT">
       <value>
         <option name="FOREGROUND" value="919191" />
       </value>
-    </option>
-    <option name="REGEXP.ESC_CHARACTER">
-      <value />
     </option>
     <option name="REGEXP.INVALID_STRING_ESCAPE">
       <value>
@@ -952,15 +877,6 @@
       <value>
         <option name="FOREGROUND" value="ff5600" />
       </value>
-    </option>
-    <option name="REGEXP.PARENTHS">
-      <value />
-    </option>
-    <option name="REGEXP.QUOTE_CHARACTER">
-      <value />
-    </option>
-    <option name="REGEXP.REDUNDANT_ESCAPE">
-      <value />
     </option>
     <option name="REST.BOLD">
       <value>
@@ -1137,9 +1053,6 @@
     <option name="SASS_MIXIN">
       <value />
     </option>
-    <option name="SASS_NUMBER">
-      <value />
-    </option>
     <option name="SASS_PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="a535ae" />
@@ -1159,9 +1072,6 @@
       <value>
         <option name="FOREGROUND" value="a535ae" />
       </value>
-    </option>
-    <option name="SASS_VARIABLE">
-      <value />
     </option>
     <option name="SLIM_BAD_CHARACTER">
       <value>
@@ -1327,9 +1237,6 @@
         <option name="ERROR_STRIPE_COLOR" value="ffcdff" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME">
-      <value />
-    </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="a33f" />
@@ -1340,12 +1247,6 @@
         <option name="FOREGROUND" value="919191" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="XML_ENTITY_REFERENCE">
-      <value />
-    </option>
-    <option name="XML_TAG">
-      <value />
     </option>
     <option name="XML_TAG_DATA">
       <value>
@@ -1361,9 +1262,6 @@
       <value>
         <option name="FOREGROUND" value="a33f" />
       </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value />
     </option>
     <option name="YAML_SCALAR_LIST">
       <value>

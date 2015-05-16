@@ -1,7 +1,6 @@
 <scheme name="Easyballs" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
   <colors>
     <option name="CARET_COLOR" value="716fa8" />
@@ -179,9 +178,6 @@
         <option name="FOREGROUND" value="d85404" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
-      <value />
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
         <option name="FOREGROUND" value="72f88f" />
@@ -197,9 +193,6 @@
         <option name="FOREGROUND" value="6b6f71" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="COFFEESCRIPT.LOCAL_VARIABLE">
-      <value />
     </option>
     <option name="COFFEESCRIPT.NUMBER">
       <value>
@@ -716,9 +709,6 @@
         <option name="FOREGROUND" value="9effff" />
       </value>
     </option>
-    <option name="HAML_TEXT">
-      <value />
-    </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="edf080" />
@@ -800,9 +790,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_COMMA">
-      <value />
-    </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="6b6f71" />
@@ -849,9 +836,6 @@
         <option name="FOREGROUND" value="a3aad8" />
       </value>
     </option>
-    <option name="JAVA_SEMICOLON">
-      <value />
-    </option>
     <option name="JAVA_STRING">
       <value>
         <option name="FOREGROUND" value="72f88f" />
@@ -879,9 +863,6 @@
         <option name="FOREGROUND" value="6b6f71" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="JS.COMMA">
-      <value />
     </option>
     <option name="JS.DOC_COMMENT">
       <value>
@@ -958,9 +939,6 @@
       <value>
         <option name="FOREGROUND" value="d85404" />
       </value>
-    </option>
-    <option name="JS.SEMICOLON">
-      <value />
     </option>
     <option name="JS.STATIC_MEMBER_VARIABLE">
       <value>
@@ -1381,12 +1359,6 @@
         <option name="BACKGROUND" value="a92612" />
       </value>
     </option>
-    <option name="REGEXP.BRACES">
-      <value />
-    </option>
-    <option name="REGEXP.BRACKETS">
-      <value />
-    </option>
     <option name="REGEXP.CHAR_CLASS">
       <value>
         <option name="FOREGROUND" value="2db1bc" />
@@ -1415,9 +1387,6 @@
       <value>
         <option name="FOREGROUND" value="a3aad8" />
       </value>
-    </option>
-    <option name="REGEXP.PARENTHS">
-      <value />
     </option>
     <option name="REGEXP.QUOTE_CHARACTER">
       <value>
