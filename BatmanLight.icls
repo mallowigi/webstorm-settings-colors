@@ -1,23 +1,18 @@
 <scheme name="Batmanlight" version="141" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="CamingoCode" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Consolas" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </font>
-  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3a32" />
     <option name="CONSOLE_BACKGROUND_KEY" value="0" />
     <option name="FILESTATUS_ADDED" value="27b9b1" />
     <option name="FILESTATUS_DELETED" value="666666" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="eeed17" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="dfdfdf" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f92672" />
-    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="eeed17" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="f1f1f1" />
     <option name="FILESTATUS_MODIFIED" value="ae81ff" />
     <option name="GUTTER_BACKGROUND" value="0" />
     <option name="INDENT_GUIDE" value="3b3a32" />
@@ -431,6 +426,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="DEFAULT_COMMA">
+      <value />
+    </option>
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="7da2fa" />
@@ -512,6 +510,9 @@
         <option name="FOREGROUND" value="27b9b1" />
         <option name="FONT_TYPE" value="2" />
       </value>
+    </option>
+    <option name="DEFAULT_SEMICOLON">
+      <value />
     </option>
     <option name="DEFAULT_STRING">
       <value>

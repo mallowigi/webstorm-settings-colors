@@ -1155,9 +1155,6 @@
         <option name="FOREGROUND" value="aeaeae" />
       </value>
     </option>
-    <option name="JS.COMMA">
-      <value />
-    </option>
     <option name="JS.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="aeaeae" />
@@ -1221,9 +1218,6 @@
       <value>
         <option name="FOREGROUND" value="61ce3c" />
       </value>
-    </option>
-    <option name="JS.SEMICOLON">
-      <value />
     </option>
     <option name="JS.STATIC_MEMBER_VARIABLE">
       <value>
