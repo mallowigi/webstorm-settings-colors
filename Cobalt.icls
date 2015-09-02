@@ -1,4 +1,4 @@
-<scheme name="Cobalt" version="141" parent_scheme="Default">
+<scheme name="Cobalt2" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
@@ -376,20 +376,17 @@
       <value>
         <option name="FOREGROUND" value="660e7a" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.ENVIRONMENT_VARIABLE_DEFINITION">
       <value>
         <option name="FOREGROUND" value="660e7a" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.EXPRESSION">
       <value>
         <option name="FOREGROUND" value="80" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.KEYWORD">
@@ -401,14 +398,12 @@
       <value>
         <option name="FOREGROUND" value="808000" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.LABEL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="808000" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.NUMBER">
@@ -425,68 +420,58 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.DeletedData">
       <value>
         <option name="FOREGROUND" value="999999" />
         <option name="BACKGROUND" value="393939" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.ErrorData">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.ForeignKey">
       <value>
         <option name="FOREGROUND" value="a1a8a1" />
         <option name="BACKGROUND" value="2a3b2a" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.LoadingData">
       <value>
         <option name="FOREGROUND" value="999999" />
         <option name="BACKGROUND" value="393939" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.ModifiedData">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.PlainData">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
         <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.PrimaryKey">
       <value>
         <option name="FOREGROUND" value="95a8b4" />
         <option name="BACKGROUND" value="2b3447" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.ReadonlyData">
       <value>
         <option name="FOREGROUND" value="999999" />
         <option name="BACKGROUND" value="393939" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.Selection">
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="526da5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.PSQL.Alias">
@@ -514,7 +499,6 @@
     <option name="DBNavigator.TextAttributes.PSQL.Function">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.PSQL.Identifier">
@@ -563,11 +547,6 @@
         <option name="FOREGROUND" value="629755" />
       </value>
     </option>
-    <option name="DBNavigator.TextAttributes.SQL.Chameleon">
-      <value>
-        <option name="EFFECT_TYPE" value="-1" />
-      </value>
-    </option>
     <option name="DBNavigator.TextAttributes.SQL.DataType">
       <value>
         <option name="FOREGROUND" value="cc7832" />
@@ -576,7 +555,6 @@
     <option name="DBNavigator.TextAttributes.SQL.Function">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.SQL.Identifier">
@@ -699,6 +677,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="cccccc" />
@@ -930,9 +909,9 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff6767" />
@@ -1124,6 +1103,15 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
+    <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA" />
+    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="IGNORE.UNUSED_ENTRY" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value />
     </option>
@@ -1134,6 +1122,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="0" />
@@ -1201,6 +1190,7 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -1216,6 +1206,7 @@
         <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="80ffbb" />
@@ -1714,6 +1705,7 @@
         <option name="FOREGROUND" value="ffdd00" />
       </value>
     </option>
+    <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="RUBY_NUMBER">
       <value>
         <option name="FOREGROUND" value="ff628c" />
@@ -2103,6 +2095,7 @@
         <option name="FOREGROUND" value="ff628c" />
       </value>
     </option>
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG">
       <value>
         <option name="FOREGROUND" value="e1efff" />

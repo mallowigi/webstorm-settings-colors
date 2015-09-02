@@ -1064,15 +1064,14 @@
     <option name="RHTML_SCRIPTLET_START_ID">
       <value />
     </option>
+    <option name="RUBY_EXPR_IN_STRING">
+      <value>
+        <option name="FOREGROUND" value="e7ffaa" />
+      </value>
+    </option>
     <option name="RUBY_GVAR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="RUBY_HEREDOC_CONTENT" baseAttributes="TEXT" />
     <option name="RUBY_HEREDOC_ID" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="RUBY_IVAR">
-      <value>
-        <option name="FOREGROUND" value="c8c5ff" />
-        <option name="BACKGROUND" value="1d1f20" />
-      </value>
-    </option>
     <option name="RUBY_LINE_CONTINUATION" baseAttributes="DEFAULT_COMMA" />
     <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="RUBY_METHOD_NAME" baseAttributes="DEFAULT_INSTANCE_METHOD" />

@@ -1,4 +1,4 @@
-<scheme name="Active4D" version="141" parent_scheme="Default">
+<scheme name="Active4D" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Cousine" />
@@ -28,6 +28,7 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4837ff" />
   </colors>
   <attributes>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="APACHE_CONFIG.ARG_LEXEM">
       <value>
         <option name="FOREGROUND" value="666666" />
@@ -303,6 +304,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="21439c" />
@@ -314,6 +316,8 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="21439c" />
@@ -359,6 +363,7 @@
         <option name="FOREGROUND" value="a535ae" />
       </value>
     </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="45ae34" />
@@ -376,6 +381,7 @@
         <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DIFF_CONFLICT">
       <value>
         <option name="BACKGROUND" value="ffc8bd" />
@@ -435,6 +441,7 @@
         <option name="FOREGROUND" value="7a7a7a" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -543,6 +550,15 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
+    <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA" />
+    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="IGNORE.UNUSED_ENTRY" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="cccccc" />
@@ -550,6 +566,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="JAVA_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="af82d4" />
@@ -603,6 +620,12 @@
         <option name="FOREGROUND" value="af82d4" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="LESS_VARIABLE">
       <value>
         <option name="FOREGROUND" value="53ff" />
@@ -953,6 +976,7 @@
         <option name="FOREGROUND" value="6699" />
       </value>
     </option>
+    <option name="RUBY_LINE_CONTINUATION" baseAttributes="DEFAULT_COMMA" />
     <option name="RUBY_LOCAL_VAR_ID">
       <value>
         <option name="FOREGROUND" value="66ccff" />
@@ -963,6 +987,7 @@
         <option name="FOREGROUND" value="21439c" />
       </value>
     </option>
+    <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="RUBY_NUMBER">
       <value>
         <option name="FOREGROUND" value="a8017e" />
@@ -973,6 +998,7 @@
         <option name="FOREGROUND" value="45ae34" />
       </value>
     </option>
+    <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
     <option name="RUBY_REGEXP">
       <value>
         <option name="FOREGROUND" value="666666" />
@@ -1112,6 +1138,7 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="3b3b3b" />
@@ -1176,6 +1203,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ffcdff" />
       </value>
     </option>
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="af82d4" />

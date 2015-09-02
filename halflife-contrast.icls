@@ -1,4 +1,4 @@
-<scheme name="Halflife Contrast" version="141" parent_scheme="Default">
+<scheme name="Halflife Contrast" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.3" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
@@ -43,6 +43,7 @@
     <option name="WHITESPACES" value="505050" />
   </colors>
   <attributes>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />
@@ -84,7 +85,6 @@
     <option name="CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="7d8991" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="COFFEESCRIPT.PARAMETER">
@@ -96,7 +96,6 @@
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
         <option name="FOREGROUND" value="536c46" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -262,20 +261,17 @@
       <value>
         <option name="FOREGROUND" value="660e7a" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.ENVIRONMENT_VARIABLE_DEFINITION">
       <value>
         <option name="FOREGROUND" value="660e7a" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.EXPRESSION">
       <value>
         <option name="FOREGROUND" value="80" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.KEYWORD">
@@ -287,14 +283,12 @@
       <value>
         <option name="FOREGROUND" value="808000" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.LABEL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="808000" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.NUMBER">
@@ -311,7 +305,6 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -359,6 +352,7 @@
         <option name="FOREGROUND" value="555555" />
       </value>
     </option>
+    <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="7d8991" />
@@ -374,6 +368,7 @@
         <option name="FOREGROUND" value="cccccc" />
       </value>
     </option>
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="7d8991" />
@@ -542,15 +537,14 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="ENUM_CONST">
       <value>
         <option name="FOREGROUND" value="9373a5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -640,6 +634,15 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA" />
+    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="IGNORE.UNUSED_ENTRY" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b389c5" />
@@ -654,6 +657,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="0" />
@@ -668,7 +672,6 @@
     <option name="IVAR">
       <value>
         <option name="FOREGROUND" value="9373a5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Instance field">
@@ -734,14 +737,19 @@
     <option name="JFLEX_MACROS_REF">
       <value>
         <option name="FOREGROUND" value="7d8991" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="fc913a" />
       </value>
     </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JS.STATIC_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="f85931" />
@@ -762,7 +770,6 @@
     <option name="LABEL">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
@@ -797,12 +804,6 @@
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="908b25" />
-        <option name="EFFECT_TYPE" value="-1" />
-      </value>
-    </option>
-    <option name="MACRO_PARAMETER">
-      <value>
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -816,7 +817,6 @@
     <option name="MESSAGE_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="c4b3a3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
@@ -844,7 +844,6 @@
     <option name="OC.DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="80b000" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC.KEYWORD">
@@ -860,7 +859,6 @@
     <option name="OC.PROPERTY">
       <value>
         <option name="FOREGROUND" value="cdbcac" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC.SELFSUPERTHIS">
@@ -876,7 +874,6 @@
     <option name="OC.STRUCT_FIELD">
       <value>
         <option name="FOREGROUND" value="9373a5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
@@ -911,7 +908,6 @@
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="219598" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="REGEXP.ESC_CHARACTER">
@@ -965,6 +961,21 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="RHTML_EXPRESSION_END_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RHTML_EXPRESSION_START_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RHTML_OMIT_NEW_LINE_ID" baseAttributes="XML_ATTRIBUTE_NAME" />
+    <option name="RHTML_SCRIPTING_BACKGROUND_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RHTML_SCRIPTLET_END_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RHTML_SCRIPTLET_START_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RUBY_GVAR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="RUBY_HEREDOC_CONTENT" baseAttributes="TEXT" />
+    <option name="RUBY_HEREDOC_ID" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="RUBY_LINE_CONTINUATION" baseAttributes="DEFAULT_COMMA" />
+    <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="RUBY_METHOD_NAME" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="RUBY_REGEXP" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />
@@ -1101,7 +1112,6 @@
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="c7c8f5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
@@ -1175,6 +1185,7 @@
         <option name="FOREGROUND" value="bc3f3c" />
       </value>
     </option>
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XPATH.KEYWORD">
       <value>
         <option name="FOREGROUND" value="7d8991" />

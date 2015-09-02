@@ -1,4 +1,4 @@
-<scheme name="Preap" version="141" parent_scheme="Default">
+<scheme name="Preap" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
@@ -14,6 +14,7 @@
     <option name="WHITESPACES" value="24dbec" />
   </colors>
   <attributes>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="APACHE_CONFIG.ARG_LEXEM">
       <value>
         <option name="FOREGROUND" value="daffff" />
@@ -477,6 +478,18 @@
         <option name="FOREGROUND" value="daffff" />
       </value>
     </option>
+    <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="DEFAULT_TAG" baseAttributes="TEXT" />
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="c0c0c0" />
@@ -557,6 +570,7 @@
         <option name="FOREGROUND" value="ffff94" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff6767" />
@@ -752,6 +766,15 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
+    <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA" />
+    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="IGNORE.UNUSED_ENTRY" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
@@ -764,6 +787,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="273627" />
@@ -919,6 +943,7 @@
         <option name="FOREGROUND" value="f9885b" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
@@ -1579,6 +1604,7 @@
         <option name="FOREGROUND" value="f9885b" />
       </value>
     </option>
+    <option name="RHTML_SCRIPTING_BACKGROUND_ID" baseAttributes="XML_TAG_NAME" />
     <option name="RHTML_SCRIPTLET_END_ID">
       <value>
         <option name="FOREGROUND" value="f9885b" />
@@ -1706,6 +1732,7 @@
         <option name="FOREGROUND" value="46efdd" />
       </value>
     </option>
+    <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="RUBY_NUMBER">
       <value>
         <option name="FOREGROUND" value="ffff94" />
@@ -2016,6 +2043,7 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="ffff94" />
@@ -2131,6 +2159,7 @@
         <option name="FOREGROUND" value="ffff94" />
       </value>
     </option>
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG">
       <value>
         <option name="FOREGROUND" value="a5d1d1" />

@@ -1,4 +1,4 @@
-<scheme name="Github" version="141" parent_scheme="Default">
+<scheme name="Github2" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
@@ -18,6 +18,7 @@
     <option name="SELECTION_FOREGROUND" value="101" />
   </colors>
   <attributes>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="BROWSEWORDATCARET">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -92,6 +93,8 @@
         <option name="FOREGROUND" value="785da2" />
       </value>
     </option>
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="785da2" />
@@ -103,12 +106,14 @@
         <option name="FOREGROUND" value="a61d5d" />
       </value>
     </option>
+    <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="959795" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="85b2" />
@@ -125,6 +130,8 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="183690" />
@@ -135,11 +142,13 @@
         <option name="FOREGROUND" value="63a25c" />
       </value>
     </option>
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="183690" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="HTML_TAG">
       <value>
         <option name="FOREGROUND" value="101" />
@@ -156,6 +165,16 @@
         <option name="ERROR_STRIPE_COLOR" value="baa8ff" />
       </value>
     </option>
+    <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA" />
+    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="IGNORE.UNUSED_ENTRY" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value />
     </option>
@@ -175,6 +194,7 @@
         <option name="FOREGROUND" value="785da2" />
       </value>
     </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -182,12 +202,29 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+    <option name="RHTML_EXPRESSION_END_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RHTML_EXPRESSION_START_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RHTML_OMIT_NEW_LINE_ID" baseAttributes="XML_ATTRIBUTE_NAME" />
+    <option name="RHTML_SCRIPTING_BACKGROUND_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RHTML_SCRIPTLET_END_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RHTML_SCRIPTLET_START_ID" baseAttributes="XML_TAG_NAME" />
+    <option name="RUBY_GVAR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="RUBY_HEREDOC_CONTENT" baseAttributes="TEXT" />
+    <option name="RUBY_HEREDOC_ID" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="RUBY_LINE_CONTINUATION" baseAttributes="DEFAULT_COMMA" />
+    <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="RUBY_METHOD_NAME" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="RUBY_REGEXP" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="785da2" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="101" />
@@ -207,5 +244,6 @@
         <option name="ERROR_STRIPE_COLOR" value="f0adf0" />
       </value>
     </option>
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
   </attributes>
 </scheme>
