@@ -1,4 +1,4 @@
-<scheme name="All hallow's eve" version="142" parent_scheme="Default">
+<scheme name="All hallow's eve" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
@@ -329,17 +329,20 @@
       <value>
         <option name="FOREGROUND" value="660e7a" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.ENVIRONMENT_VARIABLE_DEFINITION">
       <value>
         <option name="FOREGROUND" value="660e7a" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.EXPRESSION">
       <value>
         <option name="FOREGROUND" value="80" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.KEYWORD">
@@ -351,12 +354,14 @@
       <value>
         <option name="FOREGROUND" value="808000" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.LABEL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="808000" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.NUMBER">
@@ -373,58 +378,68 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.DeletedData">
       <value>
         <option name="FOREGROUND" value="999999" />
         <option name="BACKGROUND" value="393939" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.ErrorData">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.ForeignKey">
       <value>
         <option name="FOREGROUND" value="a1a8a1" />
         <option name="BACKGROUND" value="2a3b2a" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.LoadingData">
       <value>
         <option name="FOREGROUND" value="999999" />
         <option name="BACKGROUND" value="393939" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.ModifiedData">
       <value>
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.PlainData">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
         <option name="BACKGROUND" value="2b2b2b" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.PrimaryKey">
       <value>
         <option name="FOREGROUND" value="95a8b4" />
         <option name="BACKGROUND" value="2b3447" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.ReadonlyData">
       <value>
         <option name="FOREGROUND" value="999999" />
         <option name="BACKGROUND" value="393939" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.DataEditor.Selection">
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="526da5" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.PSQL.Alias">
@@ -452,6 +467,7 @@
     <option name="DBNavigator.TextAttributes.PSQL.Function">
       <value>
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.PSQL.Identifier">
@@ -500,6 +516,11 @@
         <option name="FOREGROUND" value="629755" />
       </value>
     </option>
+    <option name="DBNavigator.TextAttributes.SQL.Chameleon">
+      <value>
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
     <option name="DBNavigator.TextAttributes.SQL.DataType">
       <value>
         <option name="FOREGROUND" value="cc7832" />
@@ -508,6 +529,7 @@
     <option name="DBNavigator.TextAttributes.SQL.Function">
       <value>
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DBNavigator.TextAttributes.SQL.Identifier">
@@ -576,6 +598,9 @@
         <option name="EFFECT_COLOR" value="ffffff" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
+    </option>
+    <option name="DEFAULT_COMMA">
+      <value />
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
@@ -770,6 +795,7 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
@@ -1449,11 +1475,17 @@
         <option name="FOREGROUND" value="9933cc" />
       </value>
     </option>
+    <option name="SLIM_FILTER">
+      <value />
+    </option>
     <option name="SLIM_FILTER_CONTENT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="434242" />
       </value>
+    </option>
+    <option name="SLIM_ID">
+      <value />
     </option>
     <option name="SLIM_INTERPOLATION">
       <value>

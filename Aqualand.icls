@@ -1,4 +1,4 @@
-<scheme name="Aqualand" version="142" parent_scheme="Default">
+<scheme name="Aqualand" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
@@ -86,11 +86,13 @@
     <option name="CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="a8c6" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
         <option name="FOREGROUND" value="536c46" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -212,6 +214,13 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CTRL_CLICKABLE">
+      <value>
+        <option name="FOREGROUND" value="589df6" />
+        <option name="EFFECT_COLOR" value="589df6" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="8000" />
@@ -264,17 +273,20 @@
       <value>
         <option name="FOREGROUND" value="660e7a" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.ENVIRONMENT_VARIABLE_DEFINITION">
       <value>
         <option name="FOREGROUND" value="660e7a" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.EXPRESSION">
       <value>
         <option name="FOREGROUND" value="80" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.KEYWORD">
@@ -286,12 +298,14 @@
       <value>
         <option name="FOREGROUND" value="808000" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.LABEL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="808000" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Cmd.NUMBER">
@@ -308,9 +322,9 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
-    <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="737b84" />
@@ -337,6 +351,9 @@
         <option name="FOREGROUND" value="a8c6" />
         <option name="FONT_TYPE" value="2" />
       </value>
+    </option>
+    <option name="DEFAULT_COMMA">
+      <value />
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
@@ -439,6 +456,9 @@
       <value>
         <option name="FOREGROUND" value="4ecdc4" />
       </value>
+    </option>
+    <option name="DEFAULT_SEMICOLON">
+      <value />
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
@@ -543,11 +563,13 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="ENUM_CONST">
       <value>
         <option name="FOREGROUND" value="9373a5" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
@@ -682,6 +704,7 @@
     <option name="IVAR">
       <value>
         <option name="FOREGROUND" value="9373a5" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="Instance field">
@@ -747,6 +770,7 @@
     <option name="JFLEX_MACROS_REF">
       <value>
         <option name="FOREGROUND" value="a8c6" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -774,6 +798,7 @@
     <option name="LABEL">
       <value>
         <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
@@ -808,6 +833,12 @@
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="908b25" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
+    <option name="MACRO_PARAMETER">
+      <value>
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -818,6 +849,7 @@
     <option name="MESSAGE_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="c4b3a3" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
@@ -845,6 +877,7 @@
     <option name="OC.DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="80b000" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC.KEYWORD">
@@ -860,6 +893,7 @@
     <option name="OC.PROPERTY">
       <value>
         <option name="FOREGROUND" value="cdbcac" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC.SELFSUPERTHIS">
@@ -875,6 +909,7 @@
     <option name="OC.STRUCT_FIELD">
       <value>
         <option name="FOREGROUND" value="9373a5" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
@@ -914,6 +949,7 @@
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="219598" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="REGEXP.ESC_CHARACTER">
@@ -1088,6 +1124,7 @@
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="c7c8f5" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
